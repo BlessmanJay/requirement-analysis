@@ -38,3 +38,81 @@ Requirement Validation: his step ensures the requirements are complete, realisti
 
 
 # Types of Requirements
+
+# Subsection 1
+
+Functional Requirements
+
+Functional requirements define what the system should do. They describe the specific behaviors, features, and functionalities the system must support to meet user needs.
+
+Examples from the Booking Management Project:
+
+Users (customers) can search for hotels based on location, availability, and preferences.
+
+Customers can book a hotel and make payments through third-party payment services.
+
+Hotel managers can log in to their portal to update hotel listings, availability, pricing, and other information.
+
+The system sends booking confirmation notifications to both customers and hotel managers.
+
+Customers and managers can view current and past bookings via the View Booking Service.
+
+The system supports real-time availability updates via messaging queues and data synchronization.
+
+
+# Subsection 2
+
+Non-functional Requirements
+
+Non-functional requirements define how the system should perform rather than what it should do. These include system attributes like performance, scalability, security, and usability.
+
+Examples from the Booking Management Project:
+
+Scalability: The system uses microservice architecture and load balancers to handle high traffic from users around the world.
+
+Performance: Redis caching is used to reduce database load and speed up API response times.
+
+Availability: The use of replicated (master-slave) databases ensures high availability and reliability of data access.
+
+Security: User access is controlled through separate portals for customers and hotel managers.
+
+Data Consistency: Messaging queues (e.g., Kafka, RabbitMQ) ensure consistent data flow and synchronization between services.
+
+Data Archiving: Cassandra is used to archive old booking data, ensuring the main system remains fast and efficient.
+
+Analytics Support: Integration with Apache Streaming and Hadoop enables big data analysis for business insights.
+
+
+# Use Case Diagrams
+
+Use Case Diagrams are a type of Unified Modeling Language (UML) diagram used in software development to visually represent the interactions between users (actors) and a system.
+
+They show what the system does from the user's perspective — not how it does it.
+
+In a use case diagram:
+
+Actors represent users or other systems that interact with your application.
+
+Use Cases are actions or services the system performs in response to the actor’s interaction.
+
+
+Example:
+
+In a hotel booking system, a use case diagram might include:
+
+Actors: Customer, Hotel Manager
+
+Use Cases: Search Hotel, Book Room, Make Payment, Update Hotel Info, View Booking
+
+
+# Benefits of Use Case Diagrams
+
+Clarity: They provide a clear, visual overview of system functionality from a user’s point of view.
+
+Communication: Help stakeholders (developers, clients, testers) understand system behavior without technical jargon.
+
+Requirement Gathering: Assist in identifying and organizing functional requirements early in the development process.
+
+Scope Definition: Show the boundaries of the system — what’s inside (system responsibility) and what’s external.
+
+Efficient Planning: Help prioritize features and understand user goals during project planning.
