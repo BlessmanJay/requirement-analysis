@@ -116,3 +116,6 @@ Requirement Gathering: Assist in identifying and organizing functional requireme
 Scope Definition: Show the boundaries of the system — what’s inside (system responsibility) and what’s external.
 
 Efficient Planning: Help prioritize features and understand user goals during project planning.
+
+
+![Use Case Diagram](alx-booking-uc.png)
