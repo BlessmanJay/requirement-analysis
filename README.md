@@ -1,3 +1,4 @@
+![alx-booking-uc](https://github.com/user-attachments/assets/e9d48904-05d6-4fda-99b9-920d6f660413)
 # Requirement Analysis in Software Development
 
 # Introduction
@@ -8,7 +9,8 @@ This repository explores the crucial phase of Requirement Analysis in the softwa
 
 Requirement Analysis is the process of identifying, gathering, analyzing, and documenting the needs and expectations of stakeholders for a new or modified software system. It is one of the most critical phases in the Software Development Lifecycle (SDLC) because it lays the foundation for everything that follows — from design and development to testing and deployment.
 
-In short, Requirement Analysis acts as the blueprint for software development. Just as architects need a clear design before building a house, developers need a clear set of requirements to build successful software.
+In short, Requireme![alx-booking-uc](https://github.com/user-attachments/assets/e27052db-d0a5-4a47-92cc-c3528d8323cf)
+nt Analysis acts as the blueprint for software development. Just as architects need a clear design before building a house, developers need a clear set of requirements to build successful software.
 
 
 # Why is Requirement Analysis Important?
@@ -118,4 +120,4 @@ Scope Definition: Show the boundaries of the system — what’s inside (system 
 Efficient Planning: Help prioritize features and understand user goals during project planning.
 
 
-![Use Case Diagram](alx-booking-uc.png)
+![A Use Case Diagram](alx-booking-uc.png)
